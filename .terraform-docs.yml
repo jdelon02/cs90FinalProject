@@ -7,7 +7,7 @@ footer-from: ""
 
 recursive:
   enabled: false
-  path: ./modules
+  path: ./
   include-main: true
 
 sections:
