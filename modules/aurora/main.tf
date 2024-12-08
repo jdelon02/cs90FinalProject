@@ -38,6 +38,7 @@ resource "aws_rds_cluster" "drupal_default" {
   db_subnet_group_name = aws_subnet.private_aurora_subnet.id
 }
 
+
 # sec grp + rules
 # @TODO: Need to change this to only allow 3306.
 # Create SG for allowing Certain ports from anywhere for private subnet
